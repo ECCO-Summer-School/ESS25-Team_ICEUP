@@ -11,38 +11,8 @@ This template provides the following suggested organizaiton structure for the pr
 <br> Here are the notebooks that I used to generate the runoff file (`Greenland_FW.ipynb`) and to plot the result of the ECCOV4r4 simulation with the new forcing (`lookatoutput.ipynb`).
 * **`data/`**
 <br> Data used to generate the runoff file are located in this directory.
-`Dataverse` are csv files of the runoff, basal melt, and solid discharge at 267 glacier outlets from GEUS,  https://doi.org/10.22008/FK2/BOVBVR. `00_GlacierGates.gpkg` contains the coordinates of the glacier gates.
+`Dataverse/` are csv files of the runoff, basal melt, and solid discharge at 267 glacier outlets from GEUS,  https://doi.org/10.22008/FK2/BOVBVR. `00_GlacierGates.gpkg` contains the coordinates of the glacier gates. `altiberg/` contains netcdf files of the iceberg FW data from altiberg, https://doi.org/10.13140/2.1.4518.1765.
 
-<br> This file sets the files that will be globally ignored by `git` for the project. (e.g. you may want git to ignore temporary files or large data files, [read more about ignoring files here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files))
-* `environment.yml`
-<br> `conda` environment description needed to run this project.
-* `README.md`
-<br> Description of the project (see suggested headings below)
-* `model-card.md`
-<br> Description (following a metadata standard) of any machine learning models used in the project
-
-# Recommended content for your README.md file:
-
-(you can remove the content here and above from your final project README.md file so that it begins with the Project or Team Name title below)
-
-# Project or Team Name
-
-## Project Title and Introduction
-
-Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
-
-### Collaborators
-
-List all participants on the project. Here is a good space to share your personal goals for the hackweek and things you can help with.
-
-| Name | Personal goals | Can help with | Role |
-| ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| ... | ... | ... | ... |
-| ... | ... | ... | ... |
 
 ### The problem
 
