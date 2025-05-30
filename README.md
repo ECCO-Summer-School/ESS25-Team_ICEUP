@@ -1,18 +1,17 @@
 # ICEUP Project
 
-In the Iceberg Contribution to ECCO Upgrade and Performance (ICEUP) project I updated the freshwater runoff forcing of ECCOV4 to include more realistic forcing from the Greenland icesheet. The contribution from icebergs are distributed spatially such that the freshwater flux is not only at the glacier outlet but instead where the icebergs melt. 
+In the Iceberg Contribution to ECCO Upgrade and Performance (ICEUP) project I updated the freshwater (FW) runoff forcing of ECCOV4 to include more realistic forcing from the Greenland icesheet. The contribution from icebergs are distributed spatially such that the freshwater flux is not only at the glacier outlet but instead where the icebergs melt.
+I ran ECCOV4r4 with this new runoff forcing on the P-cluster over a 26 year period. In this way the effect on temperature, salinity, current strength, and sea ice of the increased FW flux from Greenland is analysed.
 
-## Files and folders in your project repository
+## Files and folders in this project repository
 
 This template provides the following suggested organizaiton structure for the project repository, but each project team is free to organize their repository as they see fit.
 
-* **`contributors/`**
-<br> Each team member can create their own folder under contributors, within which they can work on their own scripts, notebooks, and other files. Having a dedicated folder for each person helps to prevent conflicts when merging with the main branch. This is a good place for team members to start off exploring data and methods for the project.
 * **`notebooks/`**
-<br> Notebooks that are considered delivered results for the project should go in here.
-* **`scripts/`**
-<br> Code that is shared by the team should go in here (e.g. functions or subroutines). These will be files other than Jupyter Notebooks such as Python scripts (.py).
-* `.gitignore`
+<br> Here are the notebooks that I used to generate the runoff file (Greenland_FW.ipynb) and to plot the result of the ECCOV4r4 simulation with the new forcing (lookatoutput.ipynb).
+* **`data/`**
+<br> Data used to generate the runoff file are located in this directory. 'Dataverse' are csv files of the runoff, basal melt, and solid discharge at 267 glacier outlets from GEUS,  https://doi.org/10.22008/FK2/BOVBVR. '00_GlacierGates.gpkg' contains the coordinates of the glacier gates.
+
 <br> This file sets the files that will be globally ignored by `git` for the project. (e.g. you may want git to ignore temporary files or large data files, [read more about ignoring files here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files))
 * `environment.yml`
 <br> `conda` environment description needed to run this project.
