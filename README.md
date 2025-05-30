@@ -8,9 +8,10 @@ I ran ECCOV4r4 with this new runoff forcing on the P-cluster over a 26 year peri
 This template provides the following suggested organizaiton structure for the project repository, but each project team is free to organize their repository as they see fit.
 
 * **`notebooks/`**
-<br> Here are the notebooks that I used to generate the runoff file (Greenland_FW.ipynb) and to plot the result of the ECCOV4r4 simulation with the new forcing (lookatoutput.ipynb).
+<br> Here are the notebooks that I used to generate the runoff file (`Greenland_FW.ipynb`) and to plot the result of the ECCOV4r4 simulation with the new forcing (`lookatoutput.ipynb`).
 * **`data/`**
-<br> Data used to generate the runoff file are located in this directory. 'Dataverse' are csv files of the runoff, basal melt, and solid discharge at 267 glacier outlets from GEUS,  https://doi.org/10.22008/FK2/BOVBVR. '00_GlacierGates.gpkg' contains the coordinates of the glacier gates.
+<br> Data used to generate the runoff file are located in this directory.
+`Dataverse` are csv files of the runoff, basal melt, and solid discharge at 267 glacier outlets from GEUS,  https://doi.org/10.22008/FK2/BOVBVR. `00_GlacierGates.gpkg` contains the coordinates of the glacier gates.
 
 <br> This file sets the files that will be globally ignored by `git` for the project. (e.g. you may want git to ignore temporary files or large data files, [read more about ignoring files here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files))
 * `environment.yml`
