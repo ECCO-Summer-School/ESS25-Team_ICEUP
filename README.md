@@ -1,9 +1,6 @@
-# Sample Project
+# ICEUP Project
 
-This is an example of how teams can structure their project repositories and format their project README.md file.
-
-When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `ecco-hackweek-2024`).
-
+In the Iceberg Contribution to ECCO Upgrade and Performance (ICEUP) project I updated the freshwater runoff forcing of ECCOV4 to include more realistic forcing from the Greenland icesheet. The contribution from icebergs are distributed spatially such that the freshwater flux is not only at the glacier outlet but instead where the icebergs melt. 
 
 ## Files and folders in your project repository
 
